@@ -1,0 +1,1 @@
+{ "name": "psycourse-qa-runner", "private": true, "version": "1.0.0", "dependencies": { "playwright-core": "^1.50.0" } }

@@ -1,0 +1,1866 @@
+{
+  "config": {
+    "argv": [
+      "/Users/oliv/.nvm/versions/node/v22.23.2/bin/node",
+      "/Users/oliv/Documents/Psycourse-QA copy/Testing-Psycourse/Playwright-Psycourse/node_modules/.bin/playwright",
+      "test",
+      "auth"
+    ],
+    "configFile": "/Users/oliv/Documents/Psycourse-QA copy/Testing-Psycourse/Playwright-Psycourse/playwright.config.ts",
+    "rootDir": "/Users/oliv/Documents/Psycourse-QA copy/Testing-Psycourse/Playwright-Psycourse/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/oliv/Documents/Psycourse-QA copy/Testing-Psycourse/Playwright-Psycourse/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/Users/oliv/Documents/Psycourse-QA copy/Testing-Psycourse/Playwright-Psycourse/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/oliv/Documents/Psycourse-QA copy/Testing-Psycourse/Playwright-Psycourse/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "/Users/oliv/Documents/Psycourse-QA copy/Testing-Psycourse/Playwright-Psycourse/tests",
+        "snapshotDir": "/Users/oliv/Documents/Psycourse-QA copy/Testing-Psycourse/Playwright-Psycourse/tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "http://localhost:3000",
+          "channel": "chrome",
+          "headless": true,
+          "viewport": {
+            "width": 1280,
+            "height": 900
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.65.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "auth.spec.ts",
+      "file": "auth.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "REG_001 registrasi valid ke OTP",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1357,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:38:21.841Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-dda15395a403ee86ae59",
+          "file": "auth.spec.ts",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "REG_002 semua kosong",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 444,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:38:23.400Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-ab261120d4eb1c68092e",
+          "file": "auth.spec.ts",
+          "line": 9,
+          "column": 1
+        },
+        {
+          "title": "REG_003 email tanpa @",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 596,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:38:23.851Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-3ce35ede43bbcd905a55",
+          "file": "auth.spec.ts",
+          "line": 13,
+          "column": 1
+        },
+        {
+          "title": "REG_004 email a@b",
+          "ok": true,
+          "tags": [
+            "b"
+          ],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 480,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:38:24.452Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-1f90f40a8a6d8ba82d02",
+          "file": "auth.spec.ts",
+          "line": 17,
+          "column": 1
+        },
+        {
+          "title": "REG_005 konfirmasi beda",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 454,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:38:24.937Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-e6f0b81b71c54920043b",
+          "file": "auth.spec.ts",
+          "line": 18,
+          "column": 1
+        },
+        {
+          "title": "REG_006 tanpa persetujuan",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 452,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:38:25.396Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-ebbef42240b72a261849",
+          "file": "auth.spec.ts",
+          "line": 19,
+          "column": 1
+        },
+        {
+          "title": "REG_007 nama spasi",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 466,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:38:25.855Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-f17413015f3aebb58a53",
+          "file": "auth.spec.ts",
+          "line": 20,
+          "column": 1
+        },
+        {
+          "title": "REG_008 nama 100",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 754,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:38:26.327Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-c270c2bfc2c0b5497dce",
+          "file": "auth.spec.ts",
+          "line": 21,
+          "column": 1
+        },
+        {
+          "title": "REG_009 nama 101",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 480,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:38:27.088Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-c4562eb874cb48be7482",
+          "file": "auth.spec.ts",
+          "line": 22,
+          "column": 1
+        },
+        {
+          "title": "REG_010 sandi 7",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 495,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:38:27.576Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-0a4dc2745b44469dbeaf",
+          "file": "auth.spec.ts",
+          "line": 23,
+          "column": 1
+        },
+        {
+          "title": "REG_011 sandi 8",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 812,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:38:28.077Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-375f2cbfe8853731cfd8",
+          "file": "auth.spec.ts",
+          "line": 24,
+          "column": 1
+        },
+        {
+          "title": "REG_012 sandi 73",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 488,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:38:28.897Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-a25c945be6707e61ffc9",
+          "file": "auth.spec.ts",
+          "line": 25,
+          "column": 1
+        },
+        {
+          "title": "REG_013 email sudah terdaftar tidak bocor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 765,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:38:29.393Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-bd07cddc3a4573181588",
+          "file": "auth.spec.ts",
+          "line": 26,
+          "column": 1
+        },
+        {
+          "title": "REG_014 rate limit registrasi",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1815,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:38:30.163Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-3351f65f8657fd531cae",
+          "file": "auth.spec.ts",
+          "line": 30,
+          "column": 1
+        },
+        {
+          "title": "REG_015 link di form registrasi",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 660,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:38:31.986Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-c04d7b275595f6773066",
+          "file": "auth.spec.ts",
+          "line": 34,
+          "column": 1
+        },
+        {
+          "title": "OTP_001 kode benar",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 931,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:38:32.654Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-58a4d6303bee6790ec84",
+          "file": "auth.spec.ts",
+          "line": 43,
+          "column": 1
+        },
+        {
+          "title": "OTP_002 kode salah",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 798,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:38:33.591Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-0fb82c5cd8b54f4128ba",
+          "file": "auth.spec.ts",
+          "line": 47,
+          "column": 1
+        },
+        {
+          "title": "OTP_003 5 digit",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 779,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:38:34.398Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-3c806520b6dbce6dc6d8",
+          "file": "auth.spec.ts",
+          "line": 48,
+          "column": 1
+        },
+        {
+          "title": "OTP_004 maxlength 6",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 902,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:38:35.184Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-70d91d74e28bc1628b6c",
+          "file": "auth.spec.ts",
+          "line": 50,
+          "column": 1
+        },
+        {
+          "title": "OTP_005 huruf",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 953,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:38:36.095Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-c7056cad973cd8da1173",
+          "file": "auth.spec.ts",
+          "line": 51,
+          "column": 1
+        },
+        {
+          "title": "OTP_006 kosong",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 864,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:38:37.069Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-af03c068c4b710c75b56",
+          "file": "auth.spec.ts",
+          "line": 53,
+          "column": 1
+        },
+        {
+          "title": "OTP_007 kirim ulang setelah 60 detik",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 64287,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:38:37.943Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-843550f2ed869d3d372c",
+          "file": "auth.spec.ts",
+          "line": 54,
+          "column": 1
+        },
+        {
+          "title": "OTP_008 kirim ulang sebelum 60 detik",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 905,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:39:42.237Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-337416abd0923b3e874c",
+          "file": "auth.spec.ts",
+          "line": 59,
+          "column": 1
+        },
+        {
+          "title": "OTP_009 tanpa email di URL",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 372,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:39:43.150Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-3517ceab1b1ecff490c9",
+          "file": "auth.spec.ts",
+          "line": 64,
+          "column": 1
+        },
+        {
+          "title": "OTP_010 5 kali salah mengunci",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2707,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:39:43.529Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-408ad0fc18dec03d023c",
+          "file": "auth.spec.ts",
+          "line": 65,
+          "column": 1
+        },
+        {
+          "title": "WEL_001 welcome & ke dashboard",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1333,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:39:46.244Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-f0d4b23b468d7654fa72",
+          "file": "auth.spec.ts",
+          "line": 71,
+          "column": 1
+        },
+        {
+          "title": "WEL_002 kembali ke beranda",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 934,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:39:47.588Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-0122653848046ef21abb",
+          "file": "auth.spec.ts",
+          "line": 75,
+          "column": 1
+        },
+        {
+          "title": "LGN_001 login valid",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1241,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:39:48.531Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-13936174a484506f042f",
+          "file": "auth.spec.ts",
+          "line": 77,
+          "column": 1
+        },
+        {
+          "title": "LGN_002 sandi salah",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 720,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:39:49.781Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-cf9b12d47891a429f4a2",
+          "file": "auth.spec.ts",
+          "line": 78,
+          "column": 1
+        },
+        {
+          "title": "LGN_003 email tak terdaftar",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1239,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:39:50.509Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-0941404dde164d5e5164",
+          "file": "auth.spec.ts",
+          "line": 79,
+          "column": 1
+        },
+        {
+          "title": "LGN_004 kosong",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 399,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:39:51.755Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-c6e7dca1c5786e13928f",
+          "file": "auth.spec.ts",
+          "line": 80,
+          "column": 1
+        },
+        {
+          "title": "LGN_005 format email salah",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 430,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:39:52.162Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-5e1404013dd846e696d6",
+          "file": "auth.spec.ts",
+          "line": 82,
+          "column": 1
+        },
+        {
+          "title": "LGN_006 email huruf besar",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 747,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:39:52.606Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-72ac33391e883ae54ea9",
+          "file": "auth.spec.ts",
+          "line": 84,
+          "column": 1
+        },
+        {
+          "title": "LGN_007 Enter",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 703,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:39:53.360Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-7728780984e956721142",
+          "file": "auth.spec.ts",
+          "line": 85,
+          "column": 1
+        },
+        {
+          "title": "LGN_008 akun belum verifikasi",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1109,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:39:54.069Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-0cf3d18cacc9f8116f90",
+          "file": "auth.spec.ts",
+          "line": 86,
+          "column": 1
+        },
+        {
+          "title": "LGN_009 terkunci setelah 5 gagal",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2362,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:39:55.186Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-f4a6151991c8c395003e",
+          "file": "auth.spec.ts",
+          "line": 89,
+          "column": 1
+        },
+        {
+          "title": "LGN_010 remember me 30 hari",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 754,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:39:57.554Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-06e7a77bbf6e973a106c",
+          "file": "auth.spec.ts",
+          "line": 93,
+          "column": 1
+        },
+        {
+          "title": "LGN_011 logout",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 968,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:39:58.314Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-4aa54f14543524d59166",
+          "file": "auth.spec.ts",
+          "line": 99,
+          "column": 1
+        },
+        {
+          "title": "LGN_012 link lupa sandi & daftar",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 698,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:39:59.289Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-5a93eccfcacdc8e5bc3d",
+          "file": "auth.spec.ts",
+          "line": 104,
+          "column": 1
+        },
+        {
+          "title": "RST_001 reset end-to-end",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4441,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:39:59.994Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-40364f128b51fbf3fad6",
+          "file": "auth.spec.ts",
+          "line": 109,
+          "column": 1
+        },
+        {
+          "title": "RST_002 email tak terdaftar",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 482,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:40:04.441Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-4a78c554486f5c3abdbc",
+          "file": "auth.spec.ts",
+          "line": 121,
+          "column": 1
+        },
+        {
+          "title": "RST_003 kosong / format salah",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 449,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:40:04.928Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-40353d8a75b208e7e0c7",
+          "file": "auth.spec.ts",
+          "line": 122,
+          "column": 1
+        },
+        {
+          "title": "RST_004 konfirmasi beda",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1363,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:40:05.385Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-e5b076d9f0b8ad96f67f",
+          "file": "auth.spec.ts",
+          "line": 131,
+          "column": 1
+        },
+        {
+          "title": "RST_005 sandi 7 karakter",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1340,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:40:06.757Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-17865f08e8a2b62fd3cc",
+          "file": "auth.spec.ts",
+          "line": 132,
+          "column": 1
+        },
+        {
+          "title": "RST_006 reset tanpa sesi",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 408,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:40:08.104Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-f40d6bd166448fad60c8",
+          "file": "auth.spec.ts",
+          "line": 133,
+          "column": 1
+        },
+        {
+          "title": "RST_007 kembali ke masuk",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 437,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "retry": 0,
+                  "startTime": "2026-11-15T20:40:08.519Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d748ac400d08b85935ef-f374563c35944337649b",
+          "file": "auth.spec.ts",
+          "line": 134,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-15T20:38:21.579Z",
+    "duration": 107428.103,
+    "expected": 46,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

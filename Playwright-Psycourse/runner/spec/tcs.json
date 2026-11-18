@@ -1,0 +1,6658 @@
+[
+ {
+  "id": "NAV_001",
+  "story": "NAV",
+  "title": "Beranda tampil dengan judul tab dan heading yang benar",
+  "steps": [
+   {
+    "op": "open",
+    "path": "/",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "PsyCourse",
+    "r": 1
+   },
+   {
+    "op": "title",
+    "text": "PsyCourse — Persiapan Tes IQ",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Kenali potensimu. Tumbuh percaya diri.",
+    "r": 3
+   }
+  ]
+ },
+ {
+  "id": "NAV_002",
+  "story": "NAV",
+  "title": "Menu header mengarah ke tujuan yang benar",
+  "steps": [
+   {
+    "op": "open",
+    "path": "/",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Fitur",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Kategori",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Paket",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Masuk",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Mulai Sekarang",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Fitur",
+    "within": "header",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/#features",
+    "exact": false,
+    "r": 2
+   },
+   {
+    "op": "click",
+    "text": "Kategori",
+    "within": "header",
+    "r": 3
+   },
+   {
+    "op": "url",
+    "path": "/#categories",
+    "exact": false,
+    "r": 3
+   },
+   {
+    "op": "click",
+    "text": "Paket",
+    "within": "header",
+    "r": 4
+   },
+   {
+    "op": "url",
+    "path": "/packages",
+    "exact": false,
+    "r": 4
+   },
+   {
+    "op": "open",
+    "path": "/",
+    "r": 5
+   },
+   {
+    "op": "click",
+    "text": "Masuk",
+    "within": "header",
+    "exact": true,
+    "r": 5
+   },
+   {
+    "op": "url",
+    "path": "/login",
+    "exact": false,
+    "r": 5
+   },
+   {
+    "op": "open",
+    "path": "/",
+    "r": 6
+   },
+   {
+    "op": "click",
+    "text": "Mulai Sekarang",
+    "within": "header",
+    "r": 6
+   },
+   {
+    "op": "url",
+    "path": "/register",
+    "exact": false,
+    "r": 6
+   }
+  ]
+ },
+ {
+  "id": "NAV_003",
+  "story": "NAV",
+  "title": "Tombol CTA hero dan footer berfungsi",
+  "steps": [
+   {
+    "op": "open",
+    "path": "/",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Mulai Belajar Gratis",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Mulai Belajar Gratis",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/register",
+    "exact": false,
+    "r": 2
+   },
+   {
+    "op": "open",
+    "path": "/",
+    "r": 3
+   },
+   {
+    "op": "click",
+    "text": "Kenali PsyCourse",
+    "r": 3
+   },
+   {
+    "op": "url",
+    "path": "/#features",
+    "exact": false,
+    "r": 3
+   },
+   {
+    "op": "open",
+    "path": "/",
+    "r": 4
+   },
+   {
+    "op": "click",
+    "text": "Buat Akun Gratis",
+    "r": 4
+   },
+   {
+    "op": "url",
+    "path": "/register",
+    "exact": false,
+    "r": 4
+   }
+  ]
+ },
+ {
+  "id": "NAV_004",
+  "story": "NAV",
+  "title": "Kartu kategori di beranda membuka halaman kategori",
+  "steps": [
+   {
+    "op": "open",
+    "path": "/#categories",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Logika & Pola",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Penalaran Numerik",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Penalaran Verbal",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Visual & Spasial",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Memori & Konsentrasi",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Logika & Pola",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/login",
+    "exact": false,
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "NAV_005",
+  "story": "NAV",
+  "title": "Link footer mengarah ke halaman yang benar",
+  "steps": [
+   {
+    "op": "open",
+    "path": "/",
+    "r": 1
+   },
+   {
+    "op": "visible",
+    "css": "footer",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Ketentuan layanan",
+    "within": "footer",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/terms",
+    "exact": false,
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Ketentuan Layanan",
+    "r": 2
+   },
+   {
+    "op": "open",
+    "path": "/",
+    "r": 3
+   },
+   {
+    "op": "click",
+    "text": "Kebijakan privasi",
+    "within": "footer",
+    "r": 3
+   },
+   {
+    "op": "url",
+    "path": "/privacy",
+    "exact": false,
+    "r": 3
+   },
+   {
+    "op": "see",
+    "text": "Kebijakan Privasi",
+    "r": 3
+   },
+   {
+    "op": "open",
+    "path": "/",
+    "r": 4
+   },
+   {
+    "op": "click",
+    "text": "Paket akses",
+    "within": "footer",
+    "r": 4
+   },
+   {
+    "op": "url",
+    "path": "/packages",
+    "exact": false,
+    "r": 4
+   }
+  ]
+ },
+ {
+  "id": "NAV_006",
+  "story": "NAV",
+  "title": "Halaman yang tidak ada menampilkan 404",
+  "steps": [
+   {
+    "op": "open",
+    "path": "/halamanngawur",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "This page could not be found.",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "NAV_007",
+  "story": "NAV",
+  "title": "Tampilan mobile 375px tidak ada scroll horizontal",
+  "steps": [
+   {
+    "op": "viewport",
+    "w": 375,
+    "h": 800,
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/",
+    "r": 2
+   },
+   {
+    "op": "visible",
+    "css": "button[aria-label='Buka navigasi']",
+    "r": 2
+   },
+   {
+    "op": "noHScroll",
+    "w": 375,
+    "r": 3
+   }
+  ]
+ },
+ {
+  "id": "NAV_008",
+  "story": "NAV",
+  "title": "Menu mobile terbuka dan berisi link navigasi",
+  "steps": [
+   {
+    "op": "viewport",
+    "w": 375,
+    "h": 800,
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/",
+    "r": 1
+   },
+   {
+    "op": "visible",
+    "css": "button[aria-label='Buka navigasi']",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "button[aria-label='Buka navigasi']",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Fitur",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Kategori",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Paket",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Masuk",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Mulai Sekarang",
+    "r": 2
+   },
+   {
+    "op": "click",
+    "text": "Masuk",
+    "exact": true,
+    "r": 3
+   },
+   {
+    "op": "url",
+    "path": "/login",
+    "exact": false,
+    "r": 3
+   }
+  ]
+ },
+ {
+  "id": "REG_001",
+  "story": "REG",
+  "title": "Registrasi dengan data valid lanjut ke verifikasi OTP",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "newEmail",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/register",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Buat akun",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "name",
+    "value": "Olivia Tester",
+    "r": 2
+   },
+   {
+    "op": "value",
+    "name": "name",
+    "value": "Olivia Tester",
+    "r": 2
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "{EMAIL}",
+    "r": 3
+   },
+   {
+    "op": "value",
+    "name": "email",
+    "value": "{EMAIL}",
+    "r": 3
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "Rahasia123",
+    "r": 4
+   },
+   {
+    "op": "fill",
+    "name": "confirmPassword",
+    "value": "Rahasia123",
+    "r": 4
+   },
+   {
+    "op": "value",
+    "name": "password",
+    "value": "Rahasia123",
+    "r": 4
+   },
+   {
+    "op": "check",
+    "name": "privacyConsent",
+    "r": 5
+   },
+   {
+    "op": "checked",
+    "name": "privacyConsent",
+    "r": 5
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 6
+   },
+   {
+    "op": "url",
+    "path": "/verify-otp?mode=register&email=",
+    "exact": false,
+    "r": 6
+   },
+   {
+    "op": "see",
+    "text": "Verifikasi email",
+    "r": 6
+   }
+  ]
+ },
+ {
+  "id": "REG_002",
+  "story": "REG",
+  "title": "Semua field kosong tidak bisa submit",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/register",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 1
+   },
+   {
+    "op": "valmsg",
+    "name": "name",
+    "r": 1
+   },
+   {
+    "op": "urlStays",
+    "path": "/register",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "REG_003",
+  "story": "REG",
+  "title": "Format email salah ditolak",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/register",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "name",
+    "value": "Olivia Tester",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "oliviamail.com",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "Rahasia123",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "confirmPassword",
+    "value": "Rahasia123",
+    "r": 1
+   },
+   {
+    "op": "check",
+    "name": "privacyConsent",
+    "r": 1
+   },
+   {
+    "op": "value",
+    "name": "email",
+    "value": "oliviamail.com",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 2
+   },
+   {
+    "op": "valmsg",
+    "name": "email",
+    "r": 2
+   },
+   {
+    "op": "urlStays",
+    "path": "/register",
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "REG_004",
+  "story": "REG",
+  "title": "Email tanpa domain lengkap ditolak server",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/register",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "name",
+    "value": "Olivia Tester",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "a@b",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "Rahasia123",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "confirmPassword",
+    "value": "Rahasia123",
+    "r": 1
+   },
+   {
+    "op": "check",
+    "name": "privacyConsent",
+    "r": 1
+   },
+   {
+    "op": "value",
+    "name": "email",
+    "value": "a@b",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Format email tidak valid.",
+    "r": 2
+   },
+   {
+    "op": "urlStays",
+    "path": "/register",
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "REG_005",
+  "story": "REG",
+  "title": "Konfirmasi kata sandi tidak sama",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "newEmail",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/register",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "name",
+    "value": "Olivia Tester",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "{EMAIL}",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "Rahasia123",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "confirmPassword",
+    "value": "Rahasia124",
+    "r": 1
+   },
+   {
+    "op": "check",
+    "name": "privacyConsent",
+    "r": 1
+   },
+   {
+    "op": "value",
+    "name": "confirmPassword",
+    "value": "Rahasia124",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Konfirmasi kata sandi tidak sama.",
+    "r": 2
+   },
+   {
+    "op": "urlStays",
+    "path": "/register",
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "REG_006",
+  "story": "REG",
+  "title": "Tidak mencentang persetujuan privasi",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "newEmail",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/register",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "name",
+    "value": "Olivia Tester",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "{EMAIL}",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "Rahasia123",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "confirmPassword",
+    "value": "Rahasia123",
+    "r": 1
+   },
+   {
+    "op": "checked",
+    "name": "privacyConsent",
+    "value": false,
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 2
+   },
+   {
+    "op": "valmsg",
+    "name": "privacyConsent",
+    "r": 2
+   },
+   {
+    "op": "urlStays",
+    "path": "/register",
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "REG_007",
+  "story": "REG",
+  "title": "Nama hanya berisi spasi ditolak",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "newEmail",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/register",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "name",
+    "value": "   ",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "{EMAIL}",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "Rahasia123",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "confirmPassword",
+    "value": "Rahasia123",
+    "r": 1
+   },
+   {
+    "op": "check",
+    "name": "privacyConsent",
+    "r": 1
+   },
+   {
+    "op": "value",
+    "name": "name",
+    "value": "   ",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Nama wajib diisi, maksimal 100 karakter.",
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "REG_008",
+  "story": "REG",
+  "title": "Nama 100 karakter diterima",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "newEmail",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/register",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "name",
+    "value": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "{EMAIL}",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "Rahasia123",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "confirmPassword",
+    "value": "Rahasia123",
+    "r": 1
+   },
+   {
+    "op": "check",
+    "name": "privacyConsent",
+    "r": 1
+   },
+   {
+    "op": "valueLen",
+    "name": "name",
+    "len": 100,
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/verify-otp",
+    "exact": false,
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "REG_009",
+  "story": "REG",
+  "title": "Nama 101 karakter ditolak",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "newEmail",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/register",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "name",
+    "value": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "{EMAIL}",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "Rahasia123",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "confirmPassword",
+    "value": "Rahasia123",
+    "r": 1
+   },
+   {
+    "op": "check",
+    "name": "privacyConsent",
+    "r": 1
+   },
+   {
+    "op": "valueLen",
+    "name": "name",
+    "len": 101,
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Nama wajib diisi, maksimal 100 karakter.",
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "REG_010",
+  "story": "REG",
+  "title": "Kata sandi 7 karakter ditolak",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "newEmail",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/register",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "name",
+    "value": "Olivia Tester",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "{EMAIL}",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "Rahasi1",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "confirmPassword",
+    "value": "Rahasi1",
+    "r": 1
+   },
+   {
+    "op": "check",
+    "name": "privacyConsent",
+    "r": 1
+   },
+   {
+    "op": "value",
+    "name": "password",
+    "value": "Rahasi1",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Kata sandi minimal 8 karakter.",
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "REG_011",
+  "story": "REG",
+  "title": "Kata sandi tepat 8 karakter diterima",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "newEmail",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/register",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "name",
+    "value": "Olivia Tester",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "{EMAIL}",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "Rahasia1",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "confirmPassword",
+    "value": "Rahasia1",
+    "r": 1
+   },
+   {
+    "op": "check",
+    "name": "privacyConsent",
+    "r": 1
+   },
+   {
+    "op": "value",
+    "name": "password",
+    "value": "Rahasia1",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/verify-otp",
+    "exact": false,
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "REG_012",
+  "story": "REG",
+  "title": "Kata sandi 73 karakter ditolak",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "newEmail",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/register",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "name",
+    "value": "Olivia Tester",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "{EMAIL}",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1b",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "confirmPassword",
+    "value": "Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1Aa1b",
+    "r": 1
+   },
+   {
+    "op": "check",
+    "name": "privacyConsent",
+    "r": 1
+   },
+   {
+    "op": "valueLen",
+    "name": "password",
+    "len": 73,
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Kata sandi terlalu panjang.",
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "REG_013",
+  "story": "REG",
+  "title": "Email terdaftar tidak membocorkan informasi akun",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/register",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "name",
+    "value": "Olivia Tester",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "{DEMO_EMAIL}",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "Rahasia123",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "confirmPassword",
+    "value": "Rahasia123",
+    "r": 1
+   },
+   {
+    "op": "check",
+    "name": "privacyConsent",
+    "r": 1
+   },
+   {
+    "op": "value",
+    "name": "email",
+    "value": "{DEMO_EMAIL}",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/verify-otp",
+    "exact": false,
+    "r": 2
+   },
+   {
+    "op": "notsee",
+    "text": "sudah terdaftar",
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "REG_014",
+  "story": "REG",
+  "title": "Batas percobaan registrasi (rate limit)",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/register",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "name",
+    "value": "Olivia Tester",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "a@b",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "Rahasia123",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "confirmPassword",
+    "value": "Rahasia123",
+    "r": 1
+   },
+   {
+    "op": "check",
+    "name": "privacyConsent",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Format email tidak valid.",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/register",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "name",
+    "value": "Olivia Tester",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "a@b",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "Rahasia123",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "confirmPassword",
+    "value": "Rahasia123",
+    "r": 1
+   },
+   {
+    "op": "check",
+    "name": "privacyConsent",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Format email tidak valid.",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/register",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "name",
+    "value": "Olivia Tester",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "a@b",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "Rahasia123",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "confirmPassword",
+    "value": "Rahasia123",
+    "r": 1
+   },
+   {
+    "op": "check",
+    "name": "privacyConsent",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Format email tidak valid.",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/register",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "name",
+    "value": "Olivia Tester",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "a@b",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "Rahasia123",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "confirmPassword",
+    "value": "Rahasia123",
+    "r": 1
+   },
+   {
+    "op": "check",
+    "name": "privacyConsent",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Format email tidak valid.",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/register",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "name",
+    "value": "Olivia Tester",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "a@b",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "Rahasia123",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "confirmPassword",
+    "value": "Rahasia123",
+    "r": 1
+   },
+   {
+    "op": "check",
+    "name": "privacyConsent",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Format email tidak valid.",
+    "r": 1
+   },
+   {
+    "op": "newEmail",
+    "r": 2
+   },
+   {
+    "op": "open",
+    "path": "/register",
+    "r": 2
+   },
+   {
+    "op": "fill",
+    "name": "name",
+    "value": "Olivia Tester",
+    "r": 2
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "{EMAIL}",
+    "r": 2
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "Rahasia123",
+    "r": 2
+   },
+   {
+    "op": "fill",
+    "name": "confirmPassword",
+    "value": "Rahasia123",
+    "r": 2
+   },
+   {
+    "op": "check",
+    "name": "privacyConsent",
+    "r": 2
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Terlalu banyak percobaan. Coba lagi dalam 60 menit.",
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "REG_015",
+  "story": "REG",
+  "title": "Link Ketentuan, Privasi, dan Masuk di form registrasi",
+  "steps": [
+   {
+    "op": "open",
+    "path": "/register",
+    "r": 1
+   },
+   {
+    "op": "visible",
+    "css": "form",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Ketentuan Layanan",
+    "within": "form",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/terms",
+    "exact": false,
+    "r": 2
+   },
+   {
+    "op": "open",
+    "path": "/register",
+    "r": 3
+   },
+   {
+    "op": "click",
+    "text": "Kebijakan Privasi",
+    "within": "form",
+    "r": 3
+   },
+   {
+    "op": "url",
+    "path": "/privacy",
+    "exact": false,
+    "r": 3
+   },
+   {
+    "op": "open",
+    "path": "/register",
+    "r": 4
+   },
+   {
+    "op": "click",
+    "text": "Masuk",
+    "within": "main",
+    "exact": true,
+    "r": 4
+   },
+   {
+    "op": "url",
+    "path": "/login",
+    "exact": false,
+    "r": 4
+   }
+  ]
+ },
+ {
+  "id": "OTP_001",
+  "story": "OTP",
+  "title": "Kode OTP benar mengaktifkan akun",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerOnly",
+    "r": 1
+   },
+   {
+    "op": "fillOtp",
+    "r": 1
+   },
+   {
+    "op": "valueLen",
+    "name": "otp",
+    "len": 6,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Verifikasi kode",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/welcome",
+    "exact": false,
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Akun berhasil dibuat!",
+    "r": 2
+   },
+   {
+    "op": "cookie",
+    "name": "psycourse_session",
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "OTP_002",
+  "story": "OTP",
+  "title": "Kode OTP salah",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerOnly",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "otp",
+    "value": "000000",
+    "r": 1
+   },
+   {
+    "op": "value",
+    "name": "otp",
+    "value": "000000",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Verifikasi kode",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Kode salah atau sudah kedaluwarsa.",
+    "r": 2
+   },
+   {
+    "op": "urlStays",
+    "path": "/verify-otp",
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "OTP_003",
+  "story": "OTP",
+  "title": "Kode OTP 5 digit ditolak",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerOnly",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "otp",
+    "value": "12345",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Verifikasi kode",
+    "r": 2
+   },
+   {
+    "op": "valmsg",
+    "name": "otp",
+    "r": 2
+   },
+   {
+    "op": "urlStays",
+    "path": "/verify-otp",
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "OTP_004",
+  "story": "OTP",
+  "title": "Kode OTP lebih dari 6 digit terpotong",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerOnly",
+    "r": 1
+   },
+   {
+    "op": "type",
+    "name": "otp",
+    "value": "1234567",
+    "r": 1
+   },
+   {
+    "op": "value",
+    "name": "otp",
+    "value": "123456",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "OTP_005",
+  "story": "OTP",
+  "title": "Kode OTP berisi huruf ditolak",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerOnly",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "otp",
+    "value": "abcdef",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Verifikasi kode",
+    "r": 2
+   },
+   {
+    "op": "valmsg",
+    "name": "otp",
+    "r": 2
+   },
+   {
+    "op": "urlStays",
+    "path": "/verify-otp",
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "OTP_006",
+  "story": "OTP",
+  "title": "Kode OTP kosong",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerOnly",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Verifikasi kode",
+    "r": 1
+   },
+   {
+    "op": "valmsg",
+    "name": "otp",
+    "r": 1
+   },
+   {
+    "op": "urlStays",
+    "path": "/verify-otp",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "OTP_007",
+  "story": "OTP",
+  "title": "Kirim ulang kode setelah jeda 60 detik",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerOnly",
+    "r": 1
+   },
+   {
+    "op": "markMail",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 62,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Kirim ulang",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Kode baru sudah dikirim. Periksa emailmu.",
+    "r": 1
+   },
+   {
+    "op": "fillOtpNew",
+    "r": 2
+   },
+   {
+    "op": "click",
+    "text": "Verifikasi kode",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/welcome",
+    "exact": false,
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "OTP_008",
+  "story": "OTP",
+  "title": "Kirim ulang kode sebelum 60 detik",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerOnly",
+    "r": 1
+   },
+   {
+    "op": "markMail",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Kirim ulang",
+    "r": 1
+   },
+   {
+    "op": "mailUnchanged",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Kirim ulang",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Terlalu banyak percobaan. Coba lagi dalam 1 menit.",
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "OTP_009",
+  "story": "OTP",
+  "title": "Halaman OTP dibuka tanpa email di URL",
+  "steps": [
+   {
+    "op": "open",
+    "path": "/verify-otp",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Alamat email tidak ditemukan. Mulai lagi",
+    "r": 1
+   },
+   {
+    "op": "disabled",
+    "text": "Verifikasi kode",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "OTP_010",
+  "story": "OTP",
+  "title": "Salah kode 5 kali mengunci kode",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerOnly",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "otp",
+    "value": "000000",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Verifikasi kode",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.7,
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Kode salah atau sudah kedaluwarsa.",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "otp",
+    "value": "000000",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Verifikasi kode",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.7,
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Kode salah atau sudah kedaluwarsa.",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "otp",
+    "value": "000000",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Verifikasi kode",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.7,
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Kode salah atau sudah kedaluwarsa.",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "otp",
+    "value": "000000",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Verifikasi kode",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.7,
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Kode salah atau sudah kedaluwarsa.",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "otp",
+    "value": "000000",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Verifikasi kode",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.7,
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Kode salah atau sudah kedaluwarsa.",
+    "r": 1
+   },
+   {
+    "op": "fillOtp",
+    "r": 2
+   },
+   {
+    "op": "click",
+    "text": "Verifikasi kode",
+    "r": 2
+   },
+   {
+    "op": "sleep",
+    "sec": 0.7,
+    "r": 2
+   },
+   {
+    "op": "urlStays",
+    "path": "/verify-otp",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Kode salah atau sudah kedaluwarsa.",
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "WEL_001",
+  "story": "WEL",
+  "title": "Halaman welcome setelah verifikasi",
+  "steps": [
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "BERHASIL",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Akun berhasil dibuat!",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Masuk ke dashboard",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Masuk ke dashboard",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/dashboard",
+    "exact": false,
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Halo, Olivia Tester! ✦",
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "WEL_002",
+  "story": "WEL",
+  "title": "Tombol Kembali ke beranda di welcome",
+  "steps": [
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Kembali ke beranda",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/",
+    "exact": true,
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "LGN_001",
+  "story": "LGN",
+  "title": "Login dengan akun valid",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/login",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Selamat datang kembali",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "{DEMO_EMAIL}",
+    "r": 2
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "{DEMO_PASS}",
+    "r": 2
+   },
+   {
+    "op": "value",
+    "name": "email",
+    "value": "{DEMO_EMAIL}",
+    "r": 2
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 3
+   },
+   {
+    "op": "url",
+    "path": "/dashboard",
+    "exact": false,
+    "r": 3
+   },
+   {
+    "op": "see",
+    "text": "Halo, Mei! ✦",
+    "r": 3
+   }
+  ]
+ },
+ {
+  "id": "LGN_002",
+  "story": "LGN",
+  "title": "Kata sandi salah",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/login",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "{DEMO_EMAIL}",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "salahsandi1",
+    "r": 1
+   },
+   {
+    "op": "value",
+    "name": "password",
+    "value": "salahsandi1",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Email atau kata sandi salah.",
+    "r": 2
+   },
+   {
+    "op": "urlStays",
+    "path": "/login",
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "LGN_003",
+  "story": "LGN",
+  "title": "Email tidak terdaftar",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/login",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "tidakada@mail.com",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "Rahasia123",
+    "r": 1
+   },
+   {
+    "op": "value",
+    "name": "email",
+    "value": "tidakada@mail.com",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Email atau kata sandi salah.",
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "LGN_004",
+  "story": "LGN",
+  "title": "Field kosong",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/login",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 1
+   },
+   {
+    "op": "valmsg",
+    "name": "email",
+    "r": 1
+   },
+   {
+    "op": "urlStays",
+    "path": "/login",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "LGN_005",
+  "story": "LGN",
+  "title": "Format email salah",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/login",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "siswa.demo",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "apasaja",
+    "r": 1
+   },
+   {
+    "op": "value",
+    "name": "email",
+    "value": "siswa.demo",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 2
+   },
+   {
+    "op": "valmsg",
+    "name": "email",
+    "r": 2
+   },
+   {
+    "op": "urlStays",
+    "path": "/login",
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "LGN_006",
+  "story": "LGN",
+  "title": "Email huruf besar tetap bisa login",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/login",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "SISWA.DEMO@EXAMPLE.COM",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "{DEMO_PASS}",
+    "r": 1
+   },
+   {
+    "op": "value",
+    "name": "email",
+    "value": "SISWA.DEMO@EXAMPLE.COM",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/dashboard",
+    "exact": false,
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "LGN_007",
+  "story": "LGN",
+  "title": "Login menekan tombol Enter",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/login",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "{DEMO_EMAIL}",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "{DEMO_PASS}",
+    "r": 1
+   },
+   {
+    "op": "value",
+    "name": "email",
+    "value": "{DEMO_EMAIL}",
+    "r": 1
+   },
+   {
+    "op": "press",
+    "name": "password",
+    "key": "Enter",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/dashboard",
+    "exact": false,
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "LGN_008",
+  "story": "LGN",
+  "title": "Akun belum verifikasi email",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerOnly",
+    "r": 1
+   },
+   {
+    "op": "clearCookies",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/login",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "{EMAIL}",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "Rahasia123",
+    "r": 1
+   },
+   {
+    "op": "value",
+    "name": "email",
+    "value": "{EMAIL}",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/verify-otp?mode=register&email=",
+    "exact": false,
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "LGN_009",
+  "story": "LGN",
+  "title": "Terkunci setelah 5 kali gagal",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/login",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "{DEMO_EMAIL}",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "salahsandi1",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Email atau kata sandi salah.",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.3,
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/login",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "{DEMO_EMAIL}",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "salahsandi1",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Email atau kata sandi salah.",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.3,
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/login",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "{DEMO_EMAIL}",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "salahsandi1",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Email atau kata sandi salah.",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.3,
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/login",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "{DEMO_EMAIL}",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "salahsandi1",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Email atau kata sandi salah.",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.3,
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/login",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "{DEMO_EMAIL}",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "salahsandi1",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Email atau kata sandi salah.",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.3,
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/login",
+    "r": 2
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "{DEMO_EMAIL}",
+    "r": 2
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "{DEMO_PASS}",
+    "r": 2
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Terlalu banyak percobaan. Coba lagi dalam 15 menit.",
+    "r": 2
+   },
+   {
+    "op": "urlStays",
+    "path": "/login",
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "LGN_010",
+  "story": "LGN",
+  "title": "Tetap masuk (remember me) 30 hari",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/login",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "{DEMO_EMAIL}",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "{DEMO_PASS}",
+    "r": 1
+   },
+   {
+    "op": "check",
+    "name": "rememberMe",
+    "r": 1
+   },
+   {
+    "op": "checked",
+    "name": "rememberMe",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/dashboard",
+    "exact": false,
+    "r": 2
+   },
+   {
+    "op": "cookie",
+    "name": "psycourse_session",
+    "days": 30,
+    "r": 3
+   }
+  ]
+ },
+ {
+  "id": "LGN_011",
+  "story": "LGN",
+  "title": "Keluar (logout) dari dashboard",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "login",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Keluar",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/login",
+    "exact": false,
+    "r": 1
+   },
+   {
+    "op": "cookie",
+    "name": "psycourse_session",
+    "exists": false,
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/dashboard",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/login",
+    "exact": false,
+    "r": 2
+   },
+   {
+    "op": "back",
+    "r": 3
+   },
+   {
+    "op": "url",
+    "path": "/login",
+    "exact": false,
+    "r": 3
+   },
+   {
+    "op": "notsee",
+    "text": "Halo,",
+    "r": 3
+   }
+  ]
+ },
+ {
+  "id": "LGN_012",
+  "story": "LGN",
+  "title": "Link Lupa kata sandi dan Daftar sekarang",
+  "steps": [
+   {
+    "op": "open",
+    "path": "/login",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Lupa kata sandi?",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/forgot-password",
+    "exact": false,
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/login",
+    "r": 2
+   },
+   {
+    "op": "click",
+    "text": "Daftar sekarang",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/register",
+    "exact": false,
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "RST_001",
+  "story": "RST",
+  "title": "Reset kata sandi berhasil end-to-end",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "clearCookies",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/forgot-password",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "{EMAIL}",
+    "r": 1
+   },
+   {
+    "op": "value",
+    "name": "email",
+    "value": "{EMAIL}",
+    "r": 1
+   },
+   {
+    "op": "markMail",
+    "r": 2
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/verify-otp?mode=recovery&email=",
+    "exact": false,
+    "r": 2
+   },
+   {
+    "op": "fillOtpNew",
+    "r": 3
+   },
+   {
+    "op": "click",
+    "text": "Verifikasi kode",
+    "r": 3
+   },
+   {
+    "op": "url",
+    "path": "/reset-password",
+    "exact": false,
+    "r": 3
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "BaruRahasia1",
+    "r": 4
+   },
+   {
+    "op": "fill",
+    "name": "confirmPassword",
+    "value": "BaruRahasia1",
+    "r": 4
+   },
+   {
+    "op": "click",
+    "text": "Simpan kata sandi",
+    "r": 4
+   },
+   {
+    "op": "url",
+    "path": "/login",
+    "exact": false,
+    "r": 4
+   },
+   {
+    "op": "open",
+    "path": "/login",
+    "r": 5
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "{EMAIL}",
+    "r": 5
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "Rahasia123",
+    "r": 5
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 5
+   },
+   {
+    "op": "see",
+    "text": "Email atau kata sandi salah.",
+    "r": 5
+   },
+   {
+    "op": "open",
+    "path": "/login",
+    "r": 6
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "{EMAIL}",
+    "r": 6
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "BaruRahasia1",
+    "r": 6
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 6
+   },
+   {
+    "op": "url",
+    "path": "/dashboard",
+    "exact": false,
+    "r": 6
+   }
+  ]
+ },
+ {
+  "id": "RST_002",
+  "story": "RST",
+  "title": "Lupa sandi dengan email tidak terdaftar",
+  "steps": [
+   {
+    "op": "open",
+    "path": "/forgot-password",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "tidakada@mail.com",
+    "r": 1
+   },
+   {
+    "op": "clearMail",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/verify-otp?mode=recovery",
+    "exact": false,
+    "r": 1
+   },
+   {
+    "op": "mailCountIs",
+    "email": "tidakada@mail.com",
+    "n": 0,
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "RST_003",
+  "story": "RST",
+  "title": "Lupa sandi email kosong / format salah",
+  "steps": [
+   {
+    "op": "open",
+    "path": "/forgot-password",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 1
+   },
+   {
+    "op": "valmsg",
+    "name": "email",
+    "r": 1
+   },
+   {
+    "op": "urlStays",
+    "path": "/forgot-password",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "olivia@",
+    "r": 2
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 2
+   },
+   {
+    "op": "valmsg",
+    "name": "email",
+    "r": 2
+   },
+   {
+    "op": "urlStays",
+    "path": "/forgot-password",
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "RST_004",
+  "story": "RST",
+  "title": "Konfirmasi kata sandi baru tidak sama",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "clearCookies",
+    "r": 1
+   },
+   {
+    "op": "toResetPage",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "BaruRahasia1",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "confirmPassword",
+    "value": "BaruRahasia2",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Simpan kata sandi",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Konfirmasi kata sandi tidak sama.",
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "RST_005",
+  "story": "RST",
+  "title": "Kata sandi baru kurang dari 8 karakter",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "clearCookies",
+    "r": 1
+   },
+   {
+    "op": "toResetPage",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "Baru123",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "confirmPassword",
+    "value": "Baru123",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Simpan kata sandi",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Kata sandi minimal 8 karakter.",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "RST_006",
+  "story": "RST",
+  "title": "Halaman reset dibuka langsung tanpa sesi reset",
+  "steps": [
+   {
+    "op": "open",
+    "path": "/reset-password",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "BaruRahasia1",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "confirmPassword",
+    "value": "BaruRahasia1",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Simpan kata sandi",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Sesi reset kata sandi tidak ditemukan. Mulai lagi dari halaman Lupa kata sandi.",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "RST_007",
+  "story": "RST",
+  "title": "Link kembali ke masuk",
+  "steps": [
+   {
+    "op": "open",
+    "path": "/forgot-password",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Kembali ke masuk",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/login",
+    "exact": false,
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "AKS_001",
+  "story": "AKS",
+  "title": "Buka /dashboard tanpa login",
+  "steps": [
+   {
+    "op": "open",
+    "path": "/dashboard",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/login",
+    "exact": false,
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "AKS_002",
+  "story": "AKS",
+  "title": "Buka /welcome tanpa login",
+  "steps": [
+   {
+    "op": "open",
+    "path": "/welcome",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/login",
+    "exact": false,
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "AKS_003",
+  "story": "AKS",
+  "title": "Buka /courses/logika tanpa login",
+  "steps": [
+   {
+    "op": "open",
+    "path": "/courses/logika",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/login",
+    "exact": false,
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "AKS_004",
+  "story": "AKS",
+  "title": "Buka /tests/logika-test-1 tanpa login",
+  "steps": [
+   {
+    "op": "open",
+    "path": "/tests/logika-test-1",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/login",
+    "exact": false,
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "AKS_005",
+  "story": "AKS",
+  "title": "Buka /results/abc tanpa login",
+  "steps": [
+   {
+    "op": "open",
+    "path": "/results/abc",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/login",
+    "exact": false,
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "AKS_006",
+  "story": "AKS",
+  "title": "Buka /history tanpa login",
+  "steps": [
+   {
+    "op": "open",
+    "path": "/history",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/login",
+    "exact": false,
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "AKS_007",
+  "story": "AKS",
+  "title": "Buka /settings tanpa login",
+  "steps": [
+   {
+    "op": "open",
+    "path": "/settings",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/login",
+    "exact": false,
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "AKS_008",
+  "story": "AKS",
+  "title": "Buka /checkout?package=premium tanpa login",
+  "steps": [
+   {
+    "op": "open",
+    "path": "/checkout?package=premium",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/login",
+    "exact": false,
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "AKS_009",
+  "story": "AKS",
+  "title": "Buka /payment-result tanpa login",
+  "steps": [
+   {
+    "op": "open",
+    "path": "/payment-result",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/login",
+    "exact": false,
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "AKS_010",
+  "story": "AKS",
+  "title": "Buka /payment-history tanpa login",
+  "steps": [
+   {
+    "op": "open",
+    "path": "/payment-history",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/login",
+    "exact": false,
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "AKS_011",
+  "story": "AKS",
+  "title": "Buka halaman admin tanpa login",
+  "steps": [
+   {
+    "op": "open",
+    "path": "/admin/dashboard",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/admin",
+    "exact": true,
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Admin masuk",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/admin/questions",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/admin",
+    "exact": true,
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "AKS_012",
+  "story": "AKS",
+  "title": "Halaman publik bisa dibuka tanpa login",
+  "steps": [
+   {
+    "op": "open",
+    "path": "/packages",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/packages",
+    "exact": false,
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Free Access",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/terms",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/terms",
+    "exact": false,
+    "r": 2
+   },
+   {
+    "op": "open",
+    "path": "/privacy",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/privacy",
+    "exact": false,
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "AKS_013",
+  "story": "AKS",
+  "title": "Cookie sesi palsu tidak memberi akses",
+  "steps": [
+   {
+    "op": "open",
+    "path": "/login",
+    "r": 1
+   },
+   {
+    "op": "setCookie",
+    "name": "psycourse_session",
+    "value": "palsu123",
+    "r": 1
+   },
+   {
+    "op": "cookie",
+    "name": "psycourse_session",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/dashboard",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/login",
+    "exact": false,
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "DSB_001",
+  "story": "DSB",
+  "title": "Dashboard akun baru menampilkan data awal",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/dashboard",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Halo, Olivia Tester! ✦",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Tes diselesaikan",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Kategori tersedia",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Akses akun",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Gratis",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Paket aktif",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Belum ada akses premium",
+    "r": 2
+   },
+   {
+    "op": "sqlIs",
+    "stmt": "select 0",
+    "expect": 0,
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Belum ada latihan",
+    "r": 3
+   }
+  ]
+ },
+ {
+  "id": "DSB_002",
+  "story": "DSB",
+  "title": "Dashboard akun Premium",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "makePremium",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/dashboard",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Akses akun",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Premium",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Paket aktif",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "DSB_003",
+  "story": "DSB",
+  "title": "Kartu kategori membuka halaman kategori",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/dashboard",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Logika & Pola",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/courses/logika",
+    "exact": false,
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Logika & Pola",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "DSB_004",
+  "story": "DSB",
+  "title": "Akses cepat dan link riwayat",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/dashboard",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Paket akses",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/packages",
+    "exact": false,
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/dashboard",
+    "r": 2
+   },
+   {
+    "op": "click",
+    "text": "Lihat riwayat",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/history",
+    "exact": false,
+    "r": 2
+   },
+   {
+    "op": "open",
+    "path": "/dashboard",
+    "r": 3
+   },
+   {
+    "op": "click",
+    "text": "Lihat transaksi",
+    "r": 3
+   },
+   {
+    "op": "url",
+    "path": "/payment-history",
+    "exact": false,
+    "r": 3
+   }
+  ]
+ },
+ {
+  "id": "DSB_005",
+  "story": "DSB",
+  "title": "Riwayat latihan bertambah setelah menyelesaikan tes",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/tests/logika-test-1",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.6,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Berikutnya",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.6,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Berikutnya",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.6,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Berikutnya",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.6,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Berikutnya",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.6,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Kirim jawaban",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/results/",
+    "exact": false,
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/dashboard",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Tes diselesaikan",
+    "r": 1
+   },
+   {
+    "op": "notsee",
+    "text": "Belum ada latihan",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "KAT_001",
+  "story": "KAT",
+  "title": "Halaman kategori akun Free",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/courses/logika",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Logika & Pola",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Test 1",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Test 2",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Practice Question Bank",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Gratis",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Mulai tes",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Premium",
+    "r": 3
+   },
+   {
+    "op": "see",
+    "text": "Memerlukan paket premium",
+    "r": 3
+   }
+  ]
+ },
+ {
+  "id": "KAT_002",
+  "story": "KAT",
+  "title": "Akun Free klik Test 2 muncul notifikasi paywall",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/courses/logika",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Buka akses",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Lihat paket akses",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Lihat paket akses",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/packages?testId=logika-test-2",
+    "exact": false,
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "KAT_003",
+  "story": "KAT",
+  "title": "Notifikasi paywall bisa ditutup",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/courses/logika",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Buka akses",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Lihat paket akses",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "button[aria-label='Tutup notifikasi']",
+    "r": 2
+   },
+   {
+    "op": "notsee",
+    "text": "Lihat paket akses",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/courses/logika",
+    "exact": false,
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "KAT_004",
+  "story": "KAT",
+  "title": "Halaman kategori akun Premium",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "makePremium",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/dashboard",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/courses/logika",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Aktif",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Mulai tes",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Mulai latihan",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "KAT_005",
+  "story": "KAT",
+  "title": "Slug kategori tidak ada",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/courses/abc",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "This page could not be found.",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "KAT_006",
+  "story": "KAT",
+  "title": "Jumlah soal di kartu sesuai jumlah soal aktif",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "makePremium",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/dashboard",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/courses/logika",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "5 soal",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Mulai tes",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/tests/logika-test-1",
+    "exact": false,
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "dari 5",
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "KAT_007",
+  "story": "KAT",
+  "title": "Link kembali ke dashboard",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/courses/logika",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Dashboard",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/dashboard",
+    "exact": false,
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "TES_001",
+  "story": "TES",
+  "title": "Test 1 tampil tanpa timer",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/tests/logika-test-1",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "TEST 1 · TANPA TIMER",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Soal 1 dari 5",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "0 dijawab",
+    "r": 1
+   },
+   {
+    "op": "visible",
+    "css": "div.timer",
+    "count": 0,
+    "r": 2
+   },
+   {
+    "op": "visible",
+    "css": "label.answer-choice",
+    "count": 4,
+    "r": 3
+   },
+   {
+    "op": "disabled",
+    "text": "Sebelumnya",
+    "r": 4
+   }
+  ]
+ },
+ {
+  "id": "TES_002",
+  "story": "TES",
+  "title": "Memilih jawaban dan navigasi soal",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/tests/logika-test-1",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "1 dijawab",
+    "r": 1
+   },
+   {
+    "op": "visible",
+    "css": "label.answer-choice.selected",
+    "count": 1,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Berikutnya",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Soal 2 dari 5",
+    "r": 2
+   },
+   {
+    "op": "click",
+    "text": "Sebelumnya",
+    "r": 3
+   },
+   {
+    "op": "see",
+    "text": "Soal 1 dari 5",
+    "r": 3
+   },
+   {
+    "op": "visible",
+    "css": "label.answer-choice.selected",
+    "count": 1,
+    "r": 3
+   }
+  ]
+ },
+ {
+  "id": "TES_003",
+  "story": "TES",
+  "title": "Jawaban tersimpan otomatis setelah refresh",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/tests/logika-test-1",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "1 dijawab",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 2,
+    "r": 2
+   },
+   {
+    "op": "reload",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "1 dijawab",
+    "r": 2
+   },
+   {
+    "op": "visible",
+    "css": "label.answer-choice.selected",
+    "count": 1,
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "TES_004",
+  "story": "TES",
+  "title": "Kirim jawaban setelah semua dijawab",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/tests/logika-test-1",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.6,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Berikutnya",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.6,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Berikutnya",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.6,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Berikutnya",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.6,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Berikutnya",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.6,
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Kirim jawaban",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Kirim jawaban",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/results/",
+    "exact": false,
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Persentase",
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "TES_005",
+  "story": "TES",
+  "title": "Kirim tes tanpa menjawab satu soal pun",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/tests/logika-test-1",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Berikutnya",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Berikutnya",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Berikutnya",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Berikutnya",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Kirim jawaban",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Kirim jawaban",
+    "r": 2
+   },
+   {
+    "op": "sleep",
+    "sec": 1.5,
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/tests/logika-test-1",
+    "timeout": 2000,
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "TES_006",
+  "story": "TES",
+  "title": "Akun Free membuka Test 2 langsung lewat URL",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/tests/logika-test-2",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Kamu belum memiliki akses ke tes ini.",
+    "r": 1
+   },
+   {
+    "op": "visible",
+    "css": "label.answer-choice",
+    "count": 0,
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "TES_007",
+  "story": "TES",
+  "title": "Akun Free membuka Practice lewat URL",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/tests/logika-practice",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Kamu belum memiliki akses ke tes ini.",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "TES_008",
+  "story": "TES",
+  "title": "Test 2 menampilkan timer berjalan",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "makePremium",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/dashboard",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/tests/logika-test-2",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "TEST 2 · BERTIMER",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Tes akan dikirim otomatis saat waktu habis.",
+    "r": 1
+   },
+   {
+    "op": "visible",
+    "css": "div.timer",
+    "count": 1,
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 5,
+    "r": 2
+   },
+   {
+    "op": "timerBelow",
+    "css": "div.timer",
+    "seconds": 598,
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "TES_009",
+  "story": "TES",
+  "title": "Timer tidak reset saat halaman di-refresh",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "makePremium",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/dashboard",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/tests/logika-test-2",
+    "r": 1
+   },
+   {
+    "op": "visible",
+    "css": "div.timer",
+    "count": 1,
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 4,
+    "r": 1
+   },
+   {
+    "op": "reload",
+    "r": 2
+   },
+   {
+    "op": "sleep",
+    "sec": 1,
+    "r": 2
+   },
+   {
+    "op": "timerBelow",
+    "css": "div.timer",
+    "seconds": 599,
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "TES_010",
+  "story": "TES",
+  "title": "Waktu habis mengirim tes otomatis",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "makePremium",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/dashboard",
+    "r": 1
+   },
+   {
+    "op": "sql",
+    "stmt": "UPDATE \"Test\" SET \"timerDetik\"=8 WHERE slug='logika-test-2'",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/tests/logika-test-2",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 1,
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/results/",
+    "timeout": 20000,
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Waktu tes sudah habis. Hasil dan jawaban yang tersimpan telah dihitung.",
+    "r": 2
+   },
+   {
+    "op": "sql",
+    "stmt": "UPDATE \"Test\" SET \"timerDetik\"=600 WHERE slug='logika-test-2'",
+    "cleanup": true,
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "TES_011",
+  "story": "TES",
+  "title": "Practice bisa dikerjakan akun Premium",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "makePremium",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/dashboard",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/tests/logika-practice",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "PRACTICE QUESTION BANK",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Soal 1 dari 5",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "TES_012",
+  "story": "TES",
+  "title": "Tes dengan id tidak ada",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/tests/abc",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Tes tidak ditemukan.",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "TES_013",
+  "story": "TES",
+  "title": "Tes tanpa soal aktif",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/tests/numerik-test-1",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Tes belum memiliki soal aktif.",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "TES_014",
+  "story": "TES",
+  "title": "Test 1 dibuka lagi setelah selesai (satu percobaan resmi)",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/tests/logika-test-1",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.6,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Berikutnya",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.6,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Berikutnya",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.6,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Berikutnya",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.6,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Berikutnya",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.6,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Kirim jawaban",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/results/",
+    "exact": false,
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/tests/logika-test-1",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 1.5,
+    "r": 1
+   },
+   {
+    "op": "seeAny",
+    "texts": [
+     "sudah mengerjakan",
+     "percobaan resmi",
+     "sudah selesai",
+     "bukan resmi"
+    ],
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "TES_015",
+  "story": "TES",
+  "title": "Link kembali ke kategori",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/tests/logika-test-1",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Kembali ke kategori",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/courses/logika",
+    "exact": false,
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "HSL_001",
+  "story": "HSL",
+  "title": "Halaman hasil menampilkan skor",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/tests/logika-test-1",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.6,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Berikutnya",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.6,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Berikutnya",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.6,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Berikutnya",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.6,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Berikutnya",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.6,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Kirim jawaban",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/results/",
+    "exact": false,
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Hasil latihanmu",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "JAWABAN BENAR",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Persentase",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Lihat riwayat tes",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/history",
+    "exact": false,
+    "r": 2
+   },
+   {
+    "op": "back",
+    "r": 3
+   },
+   {
+    "op": "click",
+    "text": "Kembali ke dashboard",
+    "r": 3
+   },
+   {
+    "op": "url",
+    "path": "/dashboard",
+    "exact": false,
+    "r": 3
+   }
+  ]
+ },
+ {
+  "id": "HSL_002",
+  "story": "HSL",
+  "title": "Riwayat tes menampilkan tes yang selesai",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/tests/logika-test-1",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.6,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Berikutnya",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.6,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Berikutnya",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.6,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Berikutnya",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.6,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Berikutnya",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.6,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Kirim jawaban",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/results/",
+    "exact": false,
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/history",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Kategori",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Tes",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Skor",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Status",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Logika & Pola",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "TEST_1",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "SELESAI",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "HSL_003",
+  "story": "HSL",
+  "title": "Riwayat kosong akun baru",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/history",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Belum ada riwayat tes",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Mulai latihan",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "HSL_004",
+  "story": "HSL",
+  "title": "Id hasil tidak ada",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/results/abc",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Percobaan tidak ditemukan.",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "HSL_005",
+  "story": "HSL",
+  "title": "Membuka hasil milik akun lain",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/tests/logika-test-1",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.6,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Berikutnya",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.6,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Berikutnya",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.6,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Berikutnya",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.6,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Berikutnya",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "label.answer-choice:nth-of-type(1)",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 0.6,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Kirim jawaban",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/results/",
+    "exact": false,
+    "r": 1
+   },
+   {
+    "op": "saveUrl",
+    "r": 1
+   },
+   {
+    "op": "clearCookies",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "openSaved",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Percobaan tidak ditemukan.",
+    "r": 1
+   },
+   {
+    "op": "notsee",
+    "text": "Persentase",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "PKT_001",
+  "story": "PKT",
+  "title": "Halaman paket menampilkan 3 paket",
+  "steps": [
+   {
+    "op": "open",
+    "path": "/packages",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Free Access",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Gratis",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Single Test",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Rp19.000",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Premium Access",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Rp49.000",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "REKOMENDASI UTAMA",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "PKT_002",
+  "story": "PKT",
+  "title": "Pilih Premium membuka checkout",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/packages",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Pilih Premium",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/checkout?package=premium",
+    "exact": false,
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Premium Access",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Rp49.000",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "QRIS",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Transfer Virtual Account",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Kartu Kredit / Debit",
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "PKT_003",
+  "story": "PKT",
+  "title": "Single Test tanpa memilih tes",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/packages",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Pilih tes terlebih dahulu",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Pilih tes terlebih dahulu",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/dashboard",
+    "exact": false,
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "PKT_004",
+  "story": "PKT",
+  "title": "Single Test dari paywall Test 2",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/packages?testId=logika-test-2",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Pilih Single Test",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/checkout?package=single&testId=logika-test-2",
+    "exact": false,
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Single Test",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Rp19.000",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "PKT_005",
+  "story": "PKT",
+  "title": "Paket tidak valid di URL checkout",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/checkout?package=ngawur",
+    "r": 1
+   },
+   {
+    "op": "notsee",
+    "text": "Premium Access",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "PKT_006",
+  "story": "PKT",
+  "title": "Pilih Virtual Account menampilkan daftar bank",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/checkout?package=premium",
+    "r": 1
+   },
+   {
+    "op": "clickLabel",
+    "text": "Transfer Virtual Account",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "BCA VA",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "BNI VA",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "BRI VA",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Mandiri Bill",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Permata VA",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "PKT_007",
+  "story": "PKT",
+  "title": "Kartu kredit dengan nomor kosong",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/checkout?package=premium",
+    "r": 1
+   },
+   {
+    "op": "clickLabel",
+    "text": "Kartu Kredit / Debit Online",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Nomor kartu",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Bayar Sekarang",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Nomor kartu kredit/debit tidak valid.",
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "PKT_010",
+  "story": "PKT",
+  "title": "Halaman hasil pembayaran tanpa order valid",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/payment-result?order_id=abc",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "ID pembayaran tidak ditemukan.",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "PKT_011",
+  "story": "PKT",
+  "title": "Riwayat pembayaran kosong",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/payment-history",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Riwayat pembayaran",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Belum ada transaksi",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Lihat paket akses",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "SET_001",
+  "story": "SET",
+  "title": "Data akun terisi otomatis",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/settings",
+    "r": 1
+   },
+   {
+    "op": "valueCss",
+    "css": "main form input:not([type='email']):not([type='password'])",
+    "value": "Olivia Tester",
+    "r": 1
+   },
+   {
+    "op": "valueCss",
+    "css": "input[type='email']",
+    "value": "{EMAIL}",
+    "r": 1
+   },
+   {
+    "op": "attrCss",
+    "css": "input[type='email']",
+    "attr": "readonly",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "SET_002",
+  "story": "SET",
+  "title": "Ubah nama berhasil disimpan",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/settings",
+    "r": 1
+   },
+   {
+    "op": "fillCss",
+    "css": "main form input:not([type='email']):not([type='password'])",
+    "value": "Olivia QA Edit",
+    "r": 1
+   },
+   {
+    "op": "valueCss",
+    "css": "main form input:not([type='email']):not([type='password'])",
+    "value": "Olivia QA Edit",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Simpan perubahan",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Perubahan tersimpan.",
+    "r": 2
+   },
+   {
+    "op": "reload",
+    "r": 3
+   },
+   {
+    "op": "sleep",
+    "sec": 1,
+    "r": 3
+   },
+   {
+    "op": "valueCss",
+    "css": "main form input:not([type='email']):not([type='password'])",
+    "value": "Olivia QA Edit",
+    "r": 3
+   }
+  ]
+ },
+ {
+  "id": "SET_003",
+  "story": "SET",
+  "title": "Nama dikosongkan",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/settings",
+    "r": 1
+   },
+   {
+    "op": "fillCss",
+    "css": "main form input:not([type='email']):not([type='password'])",
+    "value": "",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Simpan perubahan",
+    "r": 1
+   },
+   {
+    "op": "valmsgCss",
+    "css": "main form input:not([type='email']):not([type='password'])",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "SET_004",
+  "story": "SET",
+  "title": "Nama lebih dari 100 karakter",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/settings",
+    "r": 1
+   },
+   {
+    "op": "fillCss",
+    "css": "main form input:not([type='email']):not([type='password'])",
+    "value": "",
+    "r": 1
+   },
+   {
+    "op": "typeCss",
+    "css": "main form input:not([type='email']):not([type='password'])",
+    "value": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "r": 1
+   },
+   {
+    "op": "valueLenCss",
+    "css": "main form input:not([type='email']):not([type='password'])",
+    "len": 100,
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "SET_005",
+  "story": "SET",
+  "title": "Ubah bahasa antarmuka",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/settings",
+    "r": 1
+   },
+   {
+    "op": "selectCss",
+    "css": "select",
+    "value": "en",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Preferensi bahasa tersimpan.",
+    "r": 1
+   },
+   {
+    "op": "reload",
+    "r": 2
+   },
+   {
+    "op": "sleep",
+    "sec": 1,
+    "r": 2
+   },
+   {
+    "op": "valueCss",
+    "css": "select",
+    "value": "en",
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "SET_006",
+  "story": "SET",
+  "title": "Hapus akun dengan kata sandi salah",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/settings",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Minta hapus data",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Tindakan ini tidak dapat dibatalkan.",
+    "r": 1
+   },
+   {
+    "op": "fillCss",
+    "css": "input[type='password']",
+    "value": "salahpassword",
+    "r": 2
+   },
+   {
+    "op": "click",
+    "text": "Hapus akun dan data saya",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Kata sandi salah.",
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "SET_007",
+  "story": "SET",
+  "title": "Hapus akun dengan kata sandi benar",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/settings",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Minta hapus data",
+    "r": 1
+   },
+   {
+    "op": "fillCss",
+    "css": "input[type='password']",
+    "value": "Rahasia123",
+    "r": 1
+   },
+   {
+    "op": "valueCss",
+    "css": "input[type='password']",
+    "value": "Rahasia123",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Hapus akun dan data saya",
+    "r": 2
+   },
+   {
+    "op": "sleep",
+    "sec": 2,
+    "r": 2
+   },
+   {
+    "op": "cookie",
+    "name": "psycourse_session",
+    "exists": false,
+    "r": 2
+   },
+   {
+    "op": "open",
+    "path": "/login",
+    "r": 3
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "{EMAIL}",
+    "r": 3
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "Rahasia123",
+    "r": 3
+   },
+   {
+    "op": "clickCss",
+    "css": "form button.form-submit",
+    "r": 3
+   },
+   {
+    "op": "see",
+    "text": "Email atau kata sandi salah.",
+    "r": 3
+   }
+  ]
+ },
+ {
+  "id": "SET_008",
+  "story": "SET",
+  "title": "Link kebijakan dari pengaturan",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/settings",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Kebijakan privasi",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/privacy",
+    "exact": false,
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/settings",
+    "r": 2
+   },
+   {
+    "op": "click",
+    "text": "Ketentuan layanan",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/terms",
+    "exact": false,
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "ADM_001",
+  "story": "ADM",
+  "title": "Login admin berhasil",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/admin",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Admin masuk",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "admin.demo@example.com",
+    "r": 2
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "{DEMO_PASS}",
+    "r": 2
+   },
+   {
+    "op": "click",
+    "text": "Masuk ke admin",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/admin/dashboard",
+    "exact": false,
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Dashboard admin",
+    "r": 2
+   }
+  ]
+ },
+ {
+  "id": "ADM_002",
+  "story": "ADM",
+  "title": "Akun siswa login di halaman admin",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/admin",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "{DEMO_EMAIL}",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "{DEMO_PASS}",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Masuk ke admin",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Akun ini bukan administrator.",
+    "r": 1
+   },
+   {
+    "op": "cookie",
+    "name": "psycourse_session",
+    "exists": false,
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "ADM_003",
+  "story": "ADM",
+  "title": "Kata sandi admin salah",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/admin",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "admin.demo@example.com",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "salah12345",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Masuk ke admin",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Email atau kata sandi salah.",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "ADM_004",
+  "story": "ADM",
+  "title": "Akun siswa membuka /admin/dashboard lewat URL",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "registerVerify",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/admin/dashboard",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/admin",
+    "exact": true,
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "ADM_005",
+  "story": "ADM",
+  "title": "Menu admin membuka halaman pengelolaan",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/admin",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "admin.demo@example.com",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "{DEMO_PASS}",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Masuk ke admin",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/admin/dashboard",
+    "exact": false,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Kelola kategori",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/admin/courses",
+    "exact": false,
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/admin/dashboard",
+    "r": 2
+   },
+   {
+    "op": "click",
+    "text": "Kelola pertanyaan",
+    "r": 2
+   },
+   {
+    "op": "url",
+    "path": "/admin/questions",
+    "exact": false,
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Kelola pertanyaan",
+    "r": 2
+   },
+   {
+    "op": "click",
+    "text": "Tambah",
+    "r": 3
+   },
+   {
+    "op": "see",
+    "text": "Mode demo: perubahan hanya berada di state halaman dan tidak tersimpan di database.",
+    "r": 3
+   }
+  ]
+ },
+ {
+  "id": "ADM_006",
+  "story": "ADM",
+  "title": "Section admin yang tidak ada",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/admin",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "admin.demo@example.com",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "{DEMO_PASS}",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Masuk ke admin",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/admin/dashboard",
+    "exact": false,
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/admin/abc",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "This page could not be found.",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "ADM_007",
+  "story": "ADM",
+  "title": "Keluar dari admin",
+  "steps": [
+   {
+    "op": "resetRate",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/admin",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "email",
+    "value": "admin.demo@example.com",
+    "r": 1
+   },
+   {
+    "op": "fill",
+    "name": "password",
+    "value": "{DEMO_PASS}",
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Masuk ke admin",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/admin/dashboard",
+    "exact": false,
+    "r": 1
+   },
+   {
+    "op": "click",
+    "text": "Keluar",
+    "r": 1
+   },
+   {
+    "op": "url",
+    "path": "/admin",
+    "exact": true,
+    "r": 1
+   },
+   {
+    "op": "cookie",
+    "name": "psycourse_session",
+    "exists": false,
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "BHS_001",
+  "story": "BHS",
+  "title": "Ganti bahasa ke English di beranda",
+  "steps": [
+   {
+    "op": "open",
+    "path": "/",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "button[aria-label='Switch language']",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Discover your potential. Grow your confidence.",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "EN",
+    "r": 1
+   },
+   {
+    "op": "reload",
+    "r": 2
+   },
+   {
+    "op": "see",
+    "text": "Discover your potential. Grow your confidence.",
+    "r": 2
+   },
+   {
+    "op": "clickCss",
+    "css": "button[aria-label='Switch language']",
+    "r": 3
+   },
+   {
+    "op": "see",
+    "text": "Kenali potensimu. Tumbuh percaya diri.",
+    "r": 3
+   }
+  ]
+ },
+ {
+  "id": "BHS_002",
+  "story": "BHS",
+  "title": "Konsistensi terjemahan di halaman lain",
+  "steps": [
+   {
+    "op": "open",
+    "path": "/",
+    "r": 1
+   },
+   {
+    "op": "clickCss",
+    "css": "button[aria-label='Switch language']",
+    "r": 1
+   },
+   {
+    "op": "open",
+    "path": "/login",
+    "r": 1
+   },
+   {
+    "op": "sleep",
+    "sec": 1,
+    "r": 1
+   },
+   {
+    "op": "notsee",
+    "text": "Selamat datang kembali",
+    "r": 1
+   },
+   {
+    "op": "notsee",
+    "text": "Masuk ke akun PsyCourse-mu.",
+    "r": 1
+   },
+   {
+    "op": "notsee",
+    "text": "Lupa kata sandi?",
+    "r": 1
+   },
+   {
+    "op": "notsee",
+    "text": "Belum punya akun?",
+    "r": 1
+   },
+   {
+    "op": "notsee",
+    "text": "Tetap masuk",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "BHS_003",
+  "story": "BHS",
+  "title": "Halaman Ketentuan Layanan",
+  "steps": [
+   {
+    "op": "open",
+    "path": "/terms",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Ketentuan Layanan",
+    "r": 1
+   }
+  ]
+ },
+ {
+  "id": "BHS_004",
+  "story": "BHS",
+  "title": "Halaman Kebijakan Privasi",
+  "steps": [
+   {
+    "op": "open",
+    "path": "/privacy",
+    "r": 1
+   },
+   {
+    "op": "see",
+    "text": "Kebijakan Privasi",
+    "r": 1
+   }
+  ]
+ }
+]

@@ -1,0 +1,1862 @@
+[
+ {
+  "id": "NAV_001",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "NAV_001_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "NAV_001_baris2.png"
+   },
+   {
+    "row": 3,
+    "file": "NAV_001_baris3.png"
+   }
+  ]
+ },
+ {
+  "id": "NAV_002",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "NAV_002_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "NAV_002_baris2.png"
+   },
+   {
+    "row": 3,
+    "file": "NAV_002_baris3.png"
+   },
+   {
+    "row": 4,
+    "file": "NAV_002_baris4.png"
+   },
+   {
+    "row": 5,
+    "file": "NAV_002_baris5.png"
+   },
+   {
+    "row": 6,
+    "file": "NAV_002_baris6.png"
+   }
+  ]
+ },
+ {
+  "id": "NAV_003",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "NAV_003_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "NAV_003_baris2.png"
+   },
+   {
+    "row": 3,
+    "file": "NAV_003_baris3.png"
+   },
+   {
+    "row": 4,
+    "file": "NAV_003_baris4.png"
+   }
+  ]
+ },
+ {
+  "id": "NAV_004",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "NAV_004_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "NAV_004_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "NAV_005",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "NAV_005_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "NAV_005_baris2.png"
+   },
+   {
+    "row": 3,
+    "file": "NAV_005_baris3.png"
+   },
+   {
+    "row": 4,
+    "file": "NAV_005_baris4.png"
+   }
+  ]
+ },
+ {
+  "id": "NAV_006",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "NAV_006_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "NAV_007",
+  "status": "Failed",
+  "fails": [
+   {
+    "step": 4,
+    "row": 3,
+    "exp": "noHScroll",
+    "actual": "scrollWidth 451 lebih besar dari 375 (ada scroll horizontal)"
+   }
+  ],
+  "shots": [
+   {
+    "row": 1,
+    "file": "NAV_007_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "NAV_007_baris2.png"
+   },
+   {
+    "row": 3,
+    "file": "NAV_007_baris3.png"
+   }
+  ]
+ },
+ {
+  "id": "NAV_008",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "NAV_008_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "NAV_008_baris2.png"
+   },
+   {
+    "row": 3,
+    "file": "NAV_008_baris3.png"
+   }
+  ]
+ },
+ {
+  "id": "REG_001",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "REG_001_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "REG_001_baris2.png"
+   },
+   {
+    "row": 3,
+    "file": "REG_001_baris3.png"
+   },
+   {
+    "row": 4,
+    "file": "REG_001_baris4.png"
+   },
+   {
+    "row": 5,
+    "file": "REG_001_baris5.png"
+   },
+   {
+    "row": 6,
+    "file": "REG_001_baris6.png"
+   }
+  ]
+ },
+ {
+  "id": "REG_002",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "REG_002_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "REG_003",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "REG_003_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "REG_003_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "REG_004",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "REG_004_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "REG_004_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "REG_005",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "REG_005_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "REG_005_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "REG_006",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "REG_006_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "REG_006_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "REG_007",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "REG_007_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "REG_007_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "REG_008",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "REG_008_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "REG_008_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "REG_009",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "REG_009_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "REG_009_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "REG_010",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "REG_010_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "REG_010_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "REG_011",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "REG_011_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "REG_011_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "REG_012",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "REG_012_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "REG_012_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "REG_013",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "REG_013_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "REG_013_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "REG_014",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "REG_014_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "REG_014_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "REG_015",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "REG_015_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "REG_015_baris2.png"
+   },
+   {
+    "row": 3,
+    "file": "REG_015_baris3.png"
+   },
+   {
+    "row": 4,
+    "file": "REG_015_baris4.png"
+   }
+  ]
+ },
+ {
+  "id": "OTP_001",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "OTP_001_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "OTP_001_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "OTP_002",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "OTP_002_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "OTP_002_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "OTP_003",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "OTP_003_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "OTP_003_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "OTP_004",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "OTP_004_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "OTP_005",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "OTP_005_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "OTP_005_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "OTP_006",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "OTP_006_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "OTP_007",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "OTP_007_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "OTP_007_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "OTP_008",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "OTP_008_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "OTP_008_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "OTP_009",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "OTP_009_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "OTP_010",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "OTP_010_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "OTP_010_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "WEL_001",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "WEL_001_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "WEL_001_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "WEL_002",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "WEL_002_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "LGN_001",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "LGN_001_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "LGN_001_baris2.png"
+   },
+   {
+    "row": 3,
+    "file": "LGN_001_baris3.png"
+   }
+  ]
+ },
+ {
+  "id": "LGN_002",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "LGN_002_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "LGN_002_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "LGN_003",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "LGN_003_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "LGN_003_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "LGN_004",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "LGN_004_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "LGN_005",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "LGN_005_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "LGN_005_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "LGN_006",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "LGN_006_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "LGN_006_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "LGN_007",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "LGN_007_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "LGN_007_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "LGN_008",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "LGN_008_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "LGN_008_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "LGN_009",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "LGN_009_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "LGN_009_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "LGN_010",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "LGN_010_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "LGN_010_baris2.png"
+   },
+   {
+    "row": 3,
+    "file": "LGN_010_baris3.png"
+   }
+  ]
+ },
+ {
+  "id": "LGN_011",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "LGN_011_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "LGN_011_baris2.png"
+   },
+   {
+    "row": 3,
+    "file": "LGN_011_baris3.png"
+   }
+  ]
+ },
+ {
+  "id": "LGN_012",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "LGN_012_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "LGN_012_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "RST_001",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "RST_001_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "RST_001_baris2.png"
+   },
+   {
+    "row": 3,
+    "file": "RST_001_baris3.png"
+   },
+   {
+    "row": 4,
+    "file": "RST_001_baris4.png"
+   },
+   {
+    "row": 5,
+    "file": "RST_001_baris5.png"
+   },
+   {
+    "row": 6,
+    "file": "RST_001_baris6.png"
+   }
+  ]
+ },
+ {
+  "id": "RST_002",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "RST_002_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "RST_003",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "RST_003_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "RST_003_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "RST_004",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "RST_004_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "RST_004_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "RST_005",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "RST_005_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "RST_006",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "RST_006_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "RST_007",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "RST_007_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "AKS_001",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "AKS_001_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "AKS_002",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "AKS_002_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "AKS_003",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "AKS_003_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "AKS_004",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "AKS_004_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "AKS_005",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "AKS_005_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "AKS_006",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "AKS_006_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "AKS_007",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "AKS_007_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "AKS_008",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "AKS_008_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "AKS_009",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "AKS_009_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "AKS_010",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "AKS_010_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "AKS_011",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "AKS_011_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "AKS_011_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "AKS_012",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "AKS_012_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "AKS_012_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "AKS_013",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "AKS_013_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "AKS_013_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "DSB_001",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "DSB_001_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "DSB_001_baris2.png"
+   },
+   {
+    "row": 3,
+    "file": "DSB_001_baris3.png"
+   }
+  ]
+ },
+ {
+  "id": "DSB_002",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "DSB_002_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "DSB_003",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "DSB_003_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "DSB_004",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "DSB_004_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "DSB_004_baris2.png"
+   },
+   {
+    "row": 3,
+    "file": "DSB_004_baris3.png"
+   }
+  ]
+ },
+ {
+  "id": "DSB_005",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "DSB_005_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "KAT_001",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "KAT_001_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "KAT_001_baris2.png"
+   },
+   {
+    "row": 3,
+    "file": "KAT_001_baris3.png"
+   }
+  ]
+ },
+ {
+  "id": "KAT_002",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "KAT_002_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "KAT_002_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "KAT_003",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "KAT_003_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "KAT_003_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "KAT_004",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "KAT_004_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "KAT_005",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "KAT_005_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "KAT_006",
+  "status": "Failed",
+  "fails": [
+   {
+    "step": 6,
+    "row": 1,
+    "exp": "see",
+    "actual": "Teks '5 soal' tidak tampil. Halaman menampilkan: \" Dashboard Latihan dalam kategori ini Logika & Pola Latihan mengenali pola, urutan, dan hubungan logis. Pilih jenis latihan yang paling sesuai dengan kebutuhanm\" (URL /courses/logika)"
+   }
+  ],
+  "shots": [
+   {
+    "row": 1,
+    "file": "KAT_006_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "KAT_006_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "KAT_007",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "KAT_007_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "TES_001",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "TES_001_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "TES_001_baris2.png"
+   },
+   {
+    "row": 3,
+    "file": "TES_001_baris3.png"
+   },
+   {
+    "row": 4,
+    "file": "TES_001_baris4.png"
+   }
+  ]
+ },
+ {
+  "id": "TES_002",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "TES_002_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "TES_002_baris2.png"
+   },
+   {
+    "row": 3,
+    "file": "TES_002_baris3.png"
+   }
+  ]
+ },
+ {
+  "id": "TES_003",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "TES_003_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "TES_003_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "TES_004",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "TES_004_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "TES_004_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "TES_005",
+  "status": "Failed",
+  "fails": [
+   {
+    "step": 11,
+    "row": 2,
+    "exp": "url",
+    "actual": "URL aktual /results/cmwmh4wf8005je84nkulcni0x, diharapkan diawali /tests/logika-test-1"
+   }
+  ],
+  "shots": [
+   {
+    "row": 1,
+    "file": "TES_005_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "TES_005_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "TES_006",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "TES_006_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "TES_007",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "TES_007_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "TES_008",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "TES_008_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "TES_008_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "TES_009",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "TES_009_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "TES_009_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "TES_010",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "TES_010_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "TES_010_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "TES_011",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "TES_011_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "TES_012",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "TES_012_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "TES_013",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "TES_013_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "TES_014",
+  "status": "Failed",
+  "fails": [
+   {
+    "step": 22,
+    "row": 1,
+    "exp": "seeAny",
+    "actual": "Tidak ada pemberitahuan percobaan resmi/sudah mengerjakan. Halaman menampilkan: \"riwayat tes hasil latihanmu 1/5 jawaban benar bagus sudah menyelesaikan tes! hasil tes resmimu sudah dihitung dan disimpan oleh psycourse. p\" (URL /results/cmwmh5qun006ue84no0zxvs4w)"
+   }
+  ],
+  "shots": [
+   {
+    "row": 1,
+    "file": "TES_014_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "TES_015",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "TES_015_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "HSL_001",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "HSL_001_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "HSL_001_baris2.png"
+   },
+   {
+    "row": 3,
+    "file": "HSL_001_baris3.png"
+   }
+  ]
+ },
+ {
+  "id": "HSL_002",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "HSL_002_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "HSL_003",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "HSL_003_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "HSL_004",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "HSL_004_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "HSL_005",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "HSL_005_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "PKT_001",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "PKT_001_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "PKT_002",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "PKT_002_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "PKT_002_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "PKT_003",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "PKT_003_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "PKT_003_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "PKT_004",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "PKT_004_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "PKT_005",
+  "status": "Failed",
+  "fails": [
+   {
+    "step": 4,
+    "row": 1,
+    "exp": "notsee",
+    "actual": "Teks 'Premium Access' ternyata tampil"
+   }
+  ],
+  "shots": [
+   {
+    "row": 1,
+    "file": "PKT_005_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "PKT_006",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "PKT_006_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "PKT_007",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "PKT_007_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "PKT_007_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "PKT_010",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "PKT_010_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "PKT_011",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "PKT_011_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "SET_001",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "SET_001_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "SET_002",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "SET_002_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "SET_002_baris2.png"
+   },
+   {
+    "row": 3,
+    "file": "SET_002_baris3.png"
+   }
+  ]
+ },
+ {
+  "id": "SET_003",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "SET_003_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "SET_004",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "SET_004_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "SET_005",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "SET_005_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "SET_005_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "SET_006",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "SET_006_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "SET_006_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "SET_007",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "SET_007_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "SET_007_baris2.png"
+   },
+   {
+    "row": 3,
+    "file": "SET_007_baris3.png"
+   }
+  ]
+ },
+ {
+  "id": "SET_008",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "SET_008_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "SET_008_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "ADM_001",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "ADM_001_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "ADM_001_baris2.png"
+   }
+  ]
+ },
+ {
+  "id": "ADM_002",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "ADM_002_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "ADM_003",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "ADM_003_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "ADM_004",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "ADM_004_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "ADM_005",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "ADM_005_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "ADM_005_baris2.png"
+   },
+   {
+    "row": 3,
+    "file": "ADM_005_baris3.png"
+   }
+  ]
+ },
+ {
+  "id": "ADM_006",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "ADM_006_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "ADM_007",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "ADM_007_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "BHS_001",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "BHS_001_baris1.png"
+   },
+   {
+    "row": 2,
+    "file": "BHS_001_baris2.png"
+   },
+   {
+    "row": 3,
+    "file": "BHS_001_baris3.png"
+   }
+  ]
+ },
+ {
+  "id": "BHS_002",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "BHS_002_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "BHS_003",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "BHS_003_baris1.png"
+   }
+  ]
+ },
+ {
+  "id": "BHS_004",
+  "status": "Passed",
+  "fails": [],
+  "shots": [
+   {
+    "row": 1,
+    "file": "BHS_004_baris1.png"
+   }
+  ]
+ }
+]
