@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Check_Admin_Login</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Chessa Chandra Devi</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Chessa Chandra Devi</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>43185938-e312-47ba-953a-b367a21e6768</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>43185938-e312-47ba-953a-b367a21e6768</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2d6833bb-f7f0-42f1-8d41-64cd1df7f8bf</testCaseGuid>
+</TestCaseEntity>
