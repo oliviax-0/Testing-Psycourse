@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BE4_ADM_03_Student_Forbidden</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Chessa Chandra Devi</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Chessa Chandra Devi</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>43185938-e312-47ba-953a-b367a21e6768</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>43185938-e312-47ba-953a-b367a21e6768</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d4a600c0-64ff-4a52-a0b9-0dae81a2d433</testCaseGuid>
+</TestCaseEntity>
