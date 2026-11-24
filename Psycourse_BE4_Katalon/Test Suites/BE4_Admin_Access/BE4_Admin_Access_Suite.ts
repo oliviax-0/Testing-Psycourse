@@ -34,4 +34,32 @@
       <testCaseId>Test Cases/BE4_Admin_Access/BE4_ADM_03_Student_Forbidden</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>e3706751-b54c-4d98-bda7-567edbeaa324</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BE4_Admin_Access/BE4_ADM_04_Client_Role_Spoofing</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>350c1cb7-2c7e-4406-898b-ee0a303f449f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BE4_Admin_Access/BE4_ADM_05_Expired_Admin_Session</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b828ee25-9d78-4cbe-8ada-aa2610cec4f1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BE4_Admin_Access/BE4_ADM_06_Logout_Invalidates_Session</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>28612985-3b33-49d9-a534-8fc8b7a9a9f4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BE4_Admin_Access/BE4_ADM_07_Admin_Dashboard_And_API</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
