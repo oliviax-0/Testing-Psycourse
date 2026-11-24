@@ -1,0 +1,14 @@
+# Katalon generated files
+**/Reports/
+**/bin/
+**/Libs/
+**/.metadata/
+**/.cache/
+**/*.log
+
+# Sensitive environment files
+.env
+.env.*
+
+# Local IDE settings
+**/.settings/
