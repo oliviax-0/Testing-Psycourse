@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BE4_CRS_02_Create_Valid_Course</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Chessa Chandra Devi</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Chessa Chandra Devi</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>43185938-e312-47ba-953a-b367a21e6768</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>43185938-e312-47ba-953a-b367a21e6768</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>811a0a9a-c0ac-4c3b-a07b-045a957748a6</testCaseGuid>
+</TestCaseEntity>
