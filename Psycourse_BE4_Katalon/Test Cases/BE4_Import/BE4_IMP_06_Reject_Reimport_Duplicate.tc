@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BE4_IMP_06_Reject_Reimport_Duplicate</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Chessa Chandra Devi</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Chessa Chandra Devi</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>43185938-e312-47ba-953a-b367a21e6768</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>43185938-e312-47ba-953a-b367a21e6768</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e1ffaddb-43fd-4ef0-88cf-90a90806ee65</testCaseGuid>
+</TestCaseEntity>

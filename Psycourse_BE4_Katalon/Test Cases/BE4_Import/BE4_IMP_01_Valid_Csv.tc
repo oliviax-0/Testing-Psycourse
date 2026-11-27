@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BE4_IMP_01_Valid_Csv</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Chessa Chandra Devi</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Chessa Chandra Devi</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>43185938-e312-47ba-953a-b367a21e6768</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>43185938-e312-47ba-953a-b367a21e6768</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8459070f-e2ed-42a1-bdd6-d85849fe07de</testCaseGuid>
+</TestCaseEntity>
