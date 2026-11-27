@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>QZ_Mulai_Tes1</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Grace Pangaribuan</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Grace Pangaribuan</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>11fd7c3d-97eb-40e0-8850-7e86022d098b</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>11fd7c3d-97eb-40e0-8850-7e86022d098b</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a86b2bcd-d207-4bfd-90fd-ad292b224f27</testCaseGuid>
+</TestCaseEntity>
